@@ -1,11 +1,11 @@
 const firstname: string = 'Anchalee'
 let y: number = 10
  y = 20
-let ต้องการกลับบ้าน: boolean = true
+let iWantToGo: boolean = true
 
 console.log(firstname)
 console.log(y)
-console.log(ต้องการกลับบ้าน)
+console.log(iWantToGo)
 
 const a: number = 2
 const b: number = 3
