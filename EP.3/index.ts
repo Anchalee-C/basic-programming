@@ -47,14 +47,14 @@ function money(age: number, salary: number, เงินฝากรวม: numb
 money('18', '1200', '25000')
 
 function MBI(height: number, weight: number) { // หน่วยเป็นเมตร
-    let MBI: string = weight/(height * height)
+    const MBI: string = weight/(height * height)
     if (MBI < 18.50) {
          return'น้ำหนักน้อย / ผอม'
-    } else if (MBI >= 18.50 && MBI <= 22.90) {
+    } else if (MBI > 18.50 && MBI < 22.90) {
         return'ปกติ (สุขภาพดี)'
-    } else if (MBI >= 23 && MBI <= 24.90) {
+    } else if (MBI > 23 && MBI < 24.90) {
         return'ท้วม / โรคอ้วนระดับ 1'
-    } else if (MBI >= 25 && MBI <= 29.90) {
+    } else if (MBI > 25 && MBI < 29.90) {
         return'อ้วน / โรคอ้วนระดับ 2'
     } else if (MBI > 30) {
         return'อ้วนมาก / โรคอ้วนระดับ 3'
