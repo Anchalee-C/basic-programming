@@ -108,24 +108,24 @@ function fixDecimal(n: number) {
 }
 
 console.log(fixDecimal(10000))
-[LOG]: "10,000" 
+//[LOG]: "10,000" 
 
 const str: string = 'ณเดชณ์ ณ บางแค แคร์บางคน บางคนหลายใจ บางคนใจเดียว เกิดที่บางแค ช่วยแม่ขายข้าวมันไก่'
 
 console.log(str.length)//นับว่ามีกี่ตัว นับทุกอย่าง
-[LOG]: 83 
+//[LOG]: 83 
 
 const str: string = 'Hello'
 
 console.log(str.charAt(2))//บอกตำแหน่ง
-[LOG]: "l" 
+//[LOG]: "l" 
 
 const str: string = 'Anchalee'
 
 console.log(str.toUpperCase())
 console.log(str.toLowerCase())
-[LOG]: "ANCHALEE" 
-[LOG]: "anchalee" 
+//[LOG]: "ANCHALEE" 
+//[LOG]: "anchalee" 
 
 
 function checkStringLenth(n: string) {
