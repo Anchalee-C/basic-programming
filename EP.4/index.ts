@@ -120,6 +120,12 @@ const str: string = 'Hello'
 console.log(str.charAt(2))//บอกตำแหน่ง
 //[LOG]: "l" 
 
+const str: string = '   Hello   '
+
+console.log(trim()) // เอา space ออกทั้งคู่
+console.log(trimStart()) // เอา space ข้างหน้าออก
+console.log(trimEnd()) // เอา space ข้างหลังออก
+
 const str: string = 'Anchalee'
 
 console.log(str.toUpperCase())
