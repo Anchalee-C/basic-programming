@@ -117,10 +117,20 @@ const me = {
     firstName: 'CottonCandy',
     lastName: 'Verrygood',
     age: 99,
+    adderss: 12/34, village: 3, road: 'Bamroongrat', 
+    subDistrict: 'Wiang Phang Kham', district: 'Mae Sai',
+    province: 'Phang Nga', postalCode: 10400,
+    telephone: +6612345672, phoneNumber: 2987654321,
+    email:  'triceratopsonlyplants@gmail.com'
 }
 
 //ประวัติส่วนตัว
 
-//ชื่อ: CottonCandy
-//นามสกุล: Verrygood
-//อายุ: 99
+// ชื่อ: คอตต้อนแคนดี้
+// นามสกุล: เวรี่กู้ด
+// อายุ: 99
+// ที่อยู่ปัจจุบันเลขที่: 12/34 หมู่ที่: 3 ถนน: บำรุงราษฎร์
+// ตำบล/แขวง: เวียงพาคำ อำเภอ/เขต: แม่สาย
+// จังหวัด: พังงา รหัสไปรษณีย์: 10400
+// โทรศัพท์: +6612345672 มือถือ: O987654321
+// อีเมล์: triceratopsonlyplants@gmail.com
