@@ -117,12 +117,22 @@ const me = {
     firstName: 'CottonCandy',
     lastName: 'Verrygood',
     age: 99,
-    adderss: 12/34, village: 3, road: 'Bamroongrat', 
-    subDistrict: 'Wiang Phang Kham', district: 'Mae Sai',
-    province: 'Phang Nga', postalCode: 10400,
-    telephone: +6612345672, phoneNumber: 2987654321,
+    adderss: {
+        num: 12/34, 
+        village: 3, 
+        road: 'Bamroongrat', 
+        subDistrict: 'Wiang Phang Kham',
+        district: 'Mae Sai',
+        province: 'Phang Nga', 
+        postalCode: 10400
+    },
+    telephone: +6612345672, 
+    phoneNumber: 2987654321,
     email:  'triceratopsonlyplants@gmail.com'
 }
+
+console.log(me.adderss.postalCode)
+//[log]: 10400
 
 //ประวัติส่วนตัว
 
