@@ -26,9 +26,9 @@ console.log(myStudentsArray[3])
 // [LOG]: ["เวรี่", " ซอรี่", " แฮปปี้", " บายบาย", " โอเค้"] 
 // [LOG]: " บายบาย" 
 
-const myStudentsArray: string[] = ["เวรี่", " ซอรี่", " แฮปปี้", " บายบาย", " โอเค้"] 
+const myStudentsArray2: string[] = ["เวรี่", " ซอรี่", " แฮปปี้", " บายบาย", " โอเค้"] 
 
-console.log(myStudentsArray.toString())
+console.log(myStudentsArray2.toString())
 
 //[LOG]: "เวรี่, ซอรี่, แฮปปี้, บายบาย, โอเค้" 
 
