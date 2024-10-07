@@ -3,12 +3,12 @@ const score = [10, 23, 26, 30, 33]
 let sum1: number = 0
 
 for (let i = 0; i < score.length; i++) {
-    sum = sum + score[i]
+    sum1 = sum1 + score[i]
 }
 
-let avg = sum / score.length
+let avg = sum1 / score.length
 
-console.log("Total: ", sum)
+console.log("Total: ", sum1)
 console.log("Avg: ", avg)
 
 //[LOG]: "Total: ",  122 
