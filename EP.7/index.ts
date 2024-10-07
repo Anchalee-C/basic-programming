@@ -1,6 +1,6 @@
 const score = [10, 23, 26, 30, 33]
 
-let sum: number = 0
+let sum1: number = 0
 
 for (let i = 0; i < score.length; i++) {
     sum = sum + score[i]
