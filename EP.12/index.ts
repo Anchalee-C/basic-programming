@@ -237,3 +237,16 @@ const account = {
 
 account.deposit(199) //" ฝากเงินจำนวน 199 ยอดคงเหลือ 199" 
 account.withdraw(100) //" ถอนเงิน 100 ยอดคงเหลือ 99" 
+
+const covidDeath1 = database.filter(function (element, index) {
+    return element.total_death > 5 && element.province !== 'ทั้งประเทศ'
+})
+
+const covidDeathOnlyProvince1 = database.map(function (element, index) {
+    return ({
+        province: element.province,
+        total_Death: element.total_death
+    })
+})
+
+console.log(covidDeathOnlyProvince)
