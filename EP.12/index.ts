@@ -103,12 +103,15 @@ const peoples = [
     { Name: "Kommark", age: 16 }
 ]
 
+const peopeleMore: {
+    name: string;
+    age: number;
+}[] = []
 
 // ยาก
 for (let i = 0; i < peoples.length; i++) {
-    const people = []
     if (peoples[i].age > 20) {
-
+        peoples.push(peoples[i])
     }
 }
 
@@ -118,10 +121,9 @@ const products = [
     { price: 150 },
     { price: 300 },
     { price: 150 }
-
 ]
 
-function updatePriceWhiteForLoop(
+function updatePriceWithForLoop(
     products: {
         price: number;
     }[]
@@ -130,7 +132,6 @@ function updatePriceWhiteForLoop(
         price: number;
     }[] = [];
 
-    // filter = เลือกเฉพาะ
     for (let i = 0; i < products.length; i++) {
         if (products[i].price > 150) {
             m.push(products[i]);
@@ -144,6 +145,7 @@ function updatePriceWhiteForLoop(
     return m;
 }
 
+// filter = เลือกเฉพาะ
 function updatePrice(products: {
     price: number;
 }[]) {
@@ -156,12 +158,11 @@ function updatePrice(products: {
 
 console.log(products)
 
-// hard
 const practice = [1, 2, 3, 4, 5, 6, 7, 8] // >> ['1', '2', '3', '4', '5', '6', '7', '8']
 
+// hard
 function covertToArrayString(array: number[]) {
     const result: string[] = [];
-
     for (let i = 0; i < practice.length; i++) {
         result.push(array[i].toString())
     }
@@ -169,7 +170,6 @@ function covertToArrayString(array: number[]) {
 }
 
 // easy
-
 function covertToArrayStringWhiteMap(array: number[]) {
     return array.map(function (element, index) {
         return element.toString()
